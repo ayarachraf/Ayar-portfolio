@@ -12,11 +12,11 @@ header{
     position: fixed;
     width: 100%;
     background: linear-gradient(45deg, rgb(216, 211, 211) , white); 
-    z-index: 2;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5% 7%;
+    padding: 1% 6%;
 
 }
 .logo{
@@ -37,13 +37,13 @@ header{
 .nav a:hover{
     color:  rgb(138, 146, 172);
 }
-.mainSeciton{
-    padding: 15% 0%;
+.mainContainer{
+    padding: 10% 0%;
     text-align: center;
     min-height: 100vh;
     position: absolute;
     z-index: 4;
-    margin-left: 28%;
+    margin-left: 3%;
 }
 #hyLine{
     font-size: 3em;
@@ -105,12 +105,104 @@ header{
     background-color:rgb(216, 211, 211); 
 }
 
-
-
  #myVideo {
-    position: absolute;
+    position: fixed;
     min-width: 100%; 
-    min-height: 110%;
+    min-height: 100%;
     z-index: 0;
     background-repeat: repeat;
 } 
+#homeSection{
+    margin-top: 6%;
+}
+.projectsSection{
+    margin-top:17%;
+    display: flex;
+    justify-items: center;
+
+}
+.cardContainer{
+    color: white;
+    width: 40%;
+    margin-left: 30%;
+}
+#projectsTitle{
+    color: rgb(216, 211, 211);
+    margin-bottom: 4%;
+    padding-top: 200px;
+    font-size: 250%;
+}
+#projectP{
+    margin-bottom: 5%;
+}
+#projectsCardsContainer{
+    
+    display: grid;
+    grid-template-columns: auto 2fr ;
+    grid-gap: 20px
+    
+  
+    
+}
+.card img{
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 350px;
+    
+}
+.card img:hover{
+    opacity: 0.85;
+}
+#Blogues{
+    text-align: center;
+    margin-top:17% ;
+
+}
+#blogueTitle{
+    padding-top: 200px;
+    font-size: 250%;
+    color: rgb(216, 211, 211);
+}
+#blogueP{
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.blougeCardTitle{
+    color: black;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 155%;
+}
+.blogueCard{
+    background-color:  rgb(255, 240, 240) ;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    transition: 1s ease;
+}
+.blogueCard:hover{
+    scale: 1.2;
+}
+.blougesContainer{
+    display: grid;
+    -ms-grid-column-align: center;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-right: 50px;
+    
+}
+.blougeImg{
+    width: 200px;
+    padding-top: 20px;
+    
+
+}
+.blougeA{
+    text-decoration: underline;
+    color: rgb(197, 124, 22);
+}
+.blougeP{
+    padding-top: 8px;
+    color: black;
+    padding-left: 8px;
+}
