@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(216, 211, 211) , white); 
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 7%;
+
+}
+.logo{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: 800;
+}
+.nav a{
+    display: inline;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: 1.3em;
+    font-weight: 300;
+
+}
+.nav a:hover{
+    color:  rgb(138, 146, 172);
+}
+.mainSeciton{
+    padding: 15% 0%;
+    text-align: center;
+    min-height: 100vh;
+    position: absolute;
+    z-index: 4;
+    margin-left: 28%;
+}
+#hyLine{
+    font-size: 3em;
+    color: rgb(216, 211, 211);
+
+}
+#profession{
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+#scrLine{
+    font-size: 1.9em;
+    color: rgb(216, 211, 211);
+}
+.iconsContainer{
+    font-size: 2em;
+    margin-top: 2%;
+
+       
+}
+.iconsContainer a{
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    display: inline-block;
+
+}
+
+#github{
+    color: #ffffff;
+}
+#facebook{
+    color: rgb(78, 78, 184);
+}
+#twitter{
+    color: #1da1f2;
+}
+#github:hover{
+    color:  rgb(138, 146, 172);
+}
+#facebook:hover{
+    color:  rgb(138, 146, 172);
+}
+#twitter:hover{
+    color:  rgb(138, 146, 172);
+}
+
+#btn1{
+    margin-top: 7%;
+    padding: 1.2% 1.8%;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 23, 37);
+    font-size: 142%;
+    font-weight: 700;
+    border: 2.5px double rgb(216, 211, 211);
+    
+}
+#btn1:hover{
+    background-color:rgb(216, 211, 211); 
+}
+
+
+
+ #myVideo {
+    position: absolute;
+    min-width: 100%; 
+    min-height: 110%;
+    z-index: 0;
+    background-repeat: repeat;
+} 

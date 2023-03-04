@@ -1,0 +1,39 @@
+@media (max-width:1023px ){
+    header{
+        padding: 12px 20px;
+    }
+    .nav a{
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 0.6em;
+        display: inline;
+    }
+    .logo{
+        font-size: 0.8em;
+        
+    }
+    .mainSeciton{
+        padding-top: 35%;
+        min-height: 90%;
+        
+       
+       
+    }
+    #hyLine{
+        margin-top: 20%;
+        font-size: 1em;
+    }
+    #profession{
+        font-size: 1.4em;
+    }
+    #scrLine{
+        font-size: 0.9em;
+    }
+    .iconsContainer{
+        font-size: 1em;
+    }
+    #btn1{
+        font-size: 70%;
+        background-color:  rgb(77, 70, 211);
+    }
+  }
