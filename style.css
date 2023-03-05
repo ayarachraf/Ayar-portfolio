@@ -237,9 +237,18 @@ header{
     font-size: 27px;
     margin-bottom: 30px;
 }
-#gmail:hover{
-    color:rgb(138, 146, 172) ;
+#github2:hover{
+    color: rgb(138, 146, 172) ;
+
+
 }
+#blogger{
+    color: #fc4f08;
+}
+#blogger:hover{
+    color: rgb(138, 146, 172) ;
+}
+
 .footerAnchor{
     margin-left: 0.7%;
     margin-right: 0.7%;
@@ -288,17 +297,18 @@ header{
 }
 #ul1{
     padding: 20px;
+   
 }
 #ul2{
     padding: 20px;
 }
 li{
     list-style-type: none;
-    font-size: 20px;
+    font-size: 30px;
 }
 #backendDiv{
     position: relative;
-    bottom: 420px;
+    bottom: 340px;
     visibility: hidden;
     margin-top: 3%;
     margin-right: 500px;
@@ -325,4 +335,24 @@ li{
 }
 .svgDiv{
     border: 1px solid white;
+}
+#officeDiv{
+    position: relative;
+    bottom: 600px;
+    visibility: hidden;
+    margin-top: 3%;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+#emailBtn{
+    background-color: rgb(179, 146, 146) ;
+    padding: 20px 70px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+#emailBtn:hover{
+    background-color: rgb(207, 61, 35);
 }
