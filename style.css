@@ -206,3 +206,45 @@ header{
     color: black;
     padding-left: 8px;
 }
+#footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+    z-index: 100;
+    display: flex;
+    
+    
+    padding: 1% 6%;
+    position: absolute;
+    margin-top: 220%;
+   
+}
+#blablaDiv{
+    
+    padding: 100px;
+    text-align: center;
+    
+}
+#footerP{
+    color: rgb(0, 0, 0);
+}
+#gthub2{
+    color: black;
+
+}
+.iconsFooterDiv{
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+#gmail:hover{
+    color:rgb(138, 146, 172) ;
+}
+.footerAnchor{
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+#footerP1{
+    margin-top: 1%;
+   
+}
