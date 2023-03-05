@@ -216,7 +216,7 @@ header{
     
     padding: 1% 6%;
     position: absolute;
-    margin-top: 220%;
+    margin-top: 310%;
    
 }
 #blablaDiv{
@@ -247,4 +247,82 @@ header{
 #footerP1{
     margin-top: 1%;
    
+}
+#Skills{
+    
+    text-align: center;
+    margin-top:30% ;
+    margin-bottom: 45%;
+    color: white;
+}
+#skillsTitle{
+    padding-top: 200px;
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+
+}
+.mainSkillsContainer{
+    
+
+    height: 10%;
+}
+#buttonContainer{
+    margin-top: 5%;
+    padding: 20px 5px;
+    border: 2px solid white;
+    margin-right: 500px;
+    margin-left: 500px;
+    
+}
+.skillsBtn{
+    padding: 15px;
+    border-radius: 15px ;
+    margin: 0px 15px ;
+    background: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.6s ease;
+}
+.skillsBtn:hover{
+    scale: 1.1;
+}
+#ul1{
+    padding: 20px;
+}
+#ul2{
+    padding: 20px;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+}
+#backendDiv{
+    position: relative;
+    bottom: 420px;
+    visibility: hidden;
+    margin-top: 3%;
+    margin-right: 500px;
+    margin-left: 500px;
+   
+}
+.h5U{
+    font-size: 20px;
+    font-weight: 900;
+    padding: 15px 0px;
+}
+#pp{
+    position: relative;
+    bottom: 290px;
+}
+#fronendDiv{
+    margin-top: 1%;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+.skillsImg{
+    width: 65px;
+    padding: 8px;
+}
+.svgDiv{
+    border: 1px solid white;
 }
