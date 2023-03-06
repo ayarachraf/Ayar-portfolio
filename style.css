@@ -168,26 +168,29 @@ header{
     margin-top: 3%;
     margin-bottom: 4%;
 }
-.blougeCardTitle{
-    color: black;
-    padding-top: 20px;
-    font-weight: 800;
-    font-size: 155%;
-}
+
+
 .blogueCard{
-    background-color:  rgb(255, 240, 240) ;
-    padding-bottom: 30px;
-    border-radius: 30px;
-    transition: 1s ease;
+    background-color: white;
+
+    
+    
+    transition: 0.8s ease;
+    height: 400px;
 }
 .blogueCard:hover{
-    scale: 1.2;
+    scale: 1.1;
 }
+.blogueCard img{
+    width: 290px;
+    margin-top: 7%;
+}
+
 .blougesContainer{
     display: grid;
     -ms-grid-column-align: center;
     grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 14px;
     margin-right: 50px;
     
 }
@@ -198,11 +201,17 @@ header{
 
 }
 .blougeA{
+   
     text-decoration: underline;
     color: rgb(197, 124, 22);
+    
+}
+.blougeA:hover{
+    color: rgb(0, 0, 0);
 }
 .blougeP{
     padding-top: 8px;
+    margin-bottom: 90px;
     color: black;
     padding-left: 8px;
 }
@@ -217,12 +226,14 @@ header{
     padding: 1% 6%;
     position: absolute;
     margin-top: 310%;
+    
    
 }
 #blablaDiv{
     
     padding: 100px;
     text-align: center;
+    margin-left: 30%;
     
 }
 #footerP{
@@ -254,7 +265,7 @@ header{
     margin-right: 0.7%;
 }
 #footerP1{
-    margin-top: 1%;
+    margin-top: 8%;
    
 }
 #Skills{
@@ -345,10 +356,10 @@ li{
     margin-left: 500px;
 }
 #emailBtn{
-    background-color: rgb(179, 146, 146) ;
+    background-color:rgb(32, 32, 32); 
     padding: 20px 70px;
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 20px;
     margin-top: 10px;
 
