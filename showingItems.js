@@ -18,3 +18,13 @@ function showOffice(){
     officeContent.style.visibility = "visible";
 
 }
+
+var link = document.getElementsByClassName("blougeA");
+var blougeCard = document.getElementsByClassName("blougeCard");
+
+for (var i = 0; i < blougeCard.length; i++) {
+
+    blougeCard[i].addEventListener("mouseover", function() {
+    link[i].style.visibility = "visible";
+  });
+}

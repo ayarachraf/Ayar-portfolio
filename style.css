@@ -37,14 +37,17 @@ header{
 .nav a:hover{
     color:  rgb(138, 146, 172);
 }
-.mainContainer{
+
+
+.mainContainer {
     padding: 10% 0%;
     text-align: center;
     min-height: 100vh;
-    position: absolute;
+    position: relative; /* change from absolute to relative */
     z-index: 4;
     margin-left: 3%;
-}
+    margin-bottom: 100px; /* add margin to bottom */
+    }
 #hyLine{
     font-size: 3em;
     color: rgb(216, 211, 211);
@@ -116,46 +119,60 @@ header{
     margin-top: 6%;
 }
 .projectsSection{
-    margin-top:17%;
+    margin-top: 10%;
     display: flex;
-    justify-items: center;
-
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 .cardContainer{
     color: white;
-    width: 40%;
-    margin-left: 30%;
+    width: 80%;
+    margin: 0 auto;
 }
+
 #projectsTitle{
     color: rgb(255, 255, 255);
     margin-bottom: 4%;
-    padding-top: 200px;
-    font-size: 250%;
+    padding-top: 10%;
+    font-size: 2.5vw;
+    text-align: center;
 }
+
 #projectP{
     margin-bottom: 5%;
 }
+
 #projectsCardsContainer{
-    
+    margin-top: 3%;
     display: grid;
-    grid-template-columns: auto 2fr ;
-    grid-gap: 20px
     
-  
-    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2%;
 }
-.card img{
+
+.card {
     margin-top: 5%;
     border-radius: 10px;
-    width: 350px;
-    
+    overflow: hidden;
 }
-.card img:hover{
+
+.card img{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover img {
     opacity: 0.85;
 }
+
 #Blogues{
     text-align: center;
     margin-top:17% ;
+    
+   
 
 }
 #blogueTitle{
@@ -163,7 +180,7 @@ header{
     font-size: 250%;
     color: rgb(255, 255, 255);
 }
-#blogueP{
+#bloguePar{
     color: white;
     margin-top: 3%;
     margin-bottom: 4%;
@@ -171,72 +188,49 @@ header{
 
 
 .blogueCard{
-    background-color: white;
-    border-radius: 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7%;
     transition: 0.8s ease;
-    height: 400px;
+    height: 450px;
+    width: 80%;
+    padding-top: 13%;
 }
 .blogueCard:hover{
-    scale: 1.1;
+    padding-top:0 ;
+    visibility: visible;
+   
+   
 }
 .blogueCard img{
-    width: 290px;
-    margin-top: 7%;
+    width: 100%;
+    margin-top: 6%;
 }
 
 .blougesContainer{
     display: grid;
-    -ms-grid-column-align: center;
-    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 14px;
-    margin-right: 50px;
-    
-}
-.blougeImg{
-    width: 200px;
-    padding-top: 20px;
-    
-
-}
-.blougeA{
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    justify-content: center;
    
+    
+}
+
+.blougeA{
     text-decoration: underline;
-    color: rgb(197, 124, 22);
+    color: rgb(0, 0, 0);
+    visibility: hidden;
     
 }
 .blougeA:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
 }
 .blougeP{
     padding-top: 8px;
-    margin-bottom: 90px;
+    margin-bottom: 15%;
     color: black;
     padding-left: 8px;
 }
-#footer{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    
-    z-index: 100;
-    display: flex;
-    
-    
-    padding: 1% 6%;
-    position: absolute;
-    margin-top: 310%;
-    
-   
-}
-#blablaDiv{
-    
-    padding: 100px;
-    text-align: center;
-    margin-left: 30%;
-    
-}
-#footerP{
-    color: rgb(0, 0, 0);
-}
+
 #gthub2{
     color: black;
 
@@ -280,7 +274,6 @@ header{
 
 }
 .mainSkillsContainer{
-    
 
     height: 10%;
 }
@@ -364,4 +357,25 @@ li{
 }
 #emailBtn:hover{
     background-color: rgb(207, 61, 35);
+}
+#footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 6%;
+    position: relative;
+    bottom: 0;
+   
+}
+#blablaDiv{
+    
+    padding: 100px;
+    text-align: center;
+    margin-left: 30%;
+    
+}
+#footerP{
+    color: rgb(0, 0, 0);
 }

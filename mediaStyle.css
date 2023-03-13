@@ -1,39 +1,197 @@
-@media (max-width:1023px ){
-    header{
-        padding: 12px 20px;
+@media screen and (max-width: 768px) {
+    /* header */
+    header {
+    padding: 2% 4%;
     }
-    .nav a{
-        padding-left: 4px;
-        padding-right: 4px;
-        font-size: 0.6em;
-        display: inline;
+    
+    .logo {
+    font-size: 1.5em;
     }
-    .logo{
-        font-size: 0.8em;
-        
+    
+    .nav a {
+    font-size: 1em;
+    padding: 0.3em;
     }
-    .mainSeciton{
-        padding-top: 35%;
-        min-height: 90%;
-        
-       
-       
+    
+    /* mainContainer */
+    .mainContainer {
+    padding: 20% 0%;
     }
-    #hyLine{
-        margin-top: 20%;
-        font-size: 1em;
+    
+    #hyLine {
+    font-size: 2em;
     }
-    #profession{
-        font-size: 1.4em;
+    
+    #profession {
+    font-size: 1em;
     }
-    #scrLine{
-        font-size: 0.9em;
+    
+    #scrLine {
+    font-size: 1.5em;
     }
-    .iconsContainer{
-        font-size: 1em;
+    
+    .iconsContainer {
+    margin-top: 5%;
+    font-size: 1.5em;
     }
-    #btn1{
-        font-size: 70%;
-        background-color:  rgb(77, 70, 211);
+    
+    #btn1 {
+    margin-top: 10%;
+    padding: 1% 2%;
+    font-size: 120%;
     }
-  }
+    
+    /* projectsSection */
+    .projectsSection {
+    margin-top: 30%;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .cardContainer {
+    width: 80%;
+    margin-left: 0;
+    }
+    
+    #projectsTitle {
+    font-size: 200%;
+    padding-top: 10%;
+    }
+    
+    .card img {
+    margin-top: 10%;
+    width: 90%;
+    }
+    
+    /* bloguesSection */
+    #Blogues {
+    margin-top: 30%;
+    }
+    
+    #blogueTitle {
+    font-size: 200%;
+    padding-top: 30%;
+    }
+    
+    .blougesContainer {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .blogueCard {
+    width: 90%;
+    height: 400px;
+    padding-top: 20%;
+    }
+    
+    .blougeP {
+    padding-top: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 10%;
+    }
+    
+    /* footer */
+    #footer {
+    padding: 2% 4%;
+    margin-top: 70%;
+    }
+    }
+    @media screen and (max-width: 480px) {
+        /* header */
+    header {
+    padding: 2% 4%;
+    }
+    
+    .logo {
+    font-size: 1.2em;
+    }
+    
+    .nav a {
+    font-size: 0.9em;
+    padding: 0.3em;
+    }
+    
+    /* mainContainer */
+    .mainContainer {
+    padding: 30% 0%;
+    }
+    
+    #hyLine {
+    font-size: 1.8em;
+    }
+    
+    #profession {
+    font-size: 0.8em;
+    }
+    
+    #scrLine {
+    font-size: 1.2em;
+    }
+    
+    .iconsContainer {
+    margin-top: 10%;
+    font-size: 1.2em;
+    }
+    
+    #btn1 {
+    margin-top: 15%;
+    padding: 1% 2%;
+    font-size: 110%;
+    }
+    
+    /* projectsSection */
+    .projectsSection {
+    margin-top: 40%;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .cardContainer {
+    width: 90%;
+    margin-left: 0;
+    }
+    
+    #projectsTitle {
+    font-size: 180%;
+    padding-top: 20%;
+    }
+    
+    .card img {
+    margin-top: 15%;
+    width: 80%;
+    }
+    
+    /* bloguesSection */
+    #Blogues {
+    margin-top: 40%;
+    }
+    
+    #blogueTitle {
+    font-size: 180%;
+    padding-top: 40%;
+    }
+    
+    .blougesContainer {
+    grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .blogueCard {
+    width: 90%;
+    height: 300px;
+    padding-top: 25%;
+    }
+    
+    .blougeP {
+    padding-top: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 10%;
+    }
+    
+    /* footer */
+    #footer {
+    padding: 2% 4%;
+    margin-top: 100%;
+    }
+    }
+    
